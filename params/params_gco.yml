@@ -1,0 +1,34 @@
+%YAML:1.0
+
+verbose: 1
+bidirectional: 1
+
+region_width: 6
+region_height: 3
+region_overlap_ratio: 0.7
+superpixelNum: 1000
+fix_boundary_region: 0
+n_intervals: 2
+
+n_outer_iterations: 6
+n_random_states: 6
+n_random_states_all: 50
+size_perturb_scale: 4
+size_perturb_trans: 4
+
+alpha: 0.86
+lambda_pairwise: 1.284
+lambda_occPott: 1.5
+lambda_consistency: 0.2
+lambda_symmetry: 13.4
+lambda_occp: 12.4
+truncate_ternary: 22
+truncate_grad: 16.3
+
+weight_coPlanar: 1
+truncate_coPlanar: 2.74
+truncate_pairwise: 15.63
+truncate_consistency: 3
+
+bPixelWeight: 0.0598597
+superpixelWeight: 0.0359287

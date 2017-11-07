@@ -1,0 +1,8 @@
+%YAML:1.0
+
+# Number of superpixels
+superpixelNum: 1000
+appWeight: 10
+regWeight: 3
+lenWeight: 4
+sizeWeight: 8.0
