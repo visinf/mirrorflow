@@ -43,12 +43,10 @@ Here is an example when running on the command line:
 * params_gco.yml
 	* A set of main parameters
 	* Details are described in the main paper
-
 * params_mirrorFlow.yml
 	* Controlling verbose options.   
 	* verbose_main: a verbose flag for the main algorithm
 	* verbose_seg: a verbose flag for the superpixel algorithm
-
 * params_tgseg.yml
     * A set of parameters for the initial superpixelization (related to the paper below)
     * CVPR 2015: Real-Time Coarse-to-fine Topologically Preserving Segmentation
@@ -65,7 +63,6 @@ The source code contains the following works which they include their own licens
 	* Distributed under GNU GPL version 3.0
 	* Citation: 
 		* J. Yao, M. Boben, S. Fidler, and R. Urtasun. Real-time coarse-to-fine topologically preserving segmentation. In CVPR, pages 2947-2955, 2015.
-
 * GCoptimization:	
 	* GCO-v3.0: software for energy minimization with graph cuts
 	* Project link: http://vision.csd.uwo.ca/code/
@@ -75,7 +72,6 @@ The source code contains the following works which they include their own licens
 		* V. Kolmogorov, R.Zabih, "What Energy Functions can be Minimized via Graph Cuts?," IEEE TPAMI, 26(2):147-159, Feb 2004. 
 		* Y. Boykov, V. Kolmogorov, "An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Vision," IEEE TPAMI, 26(9):1124-1137, Sep 2004.
 		* R. Zabih, Y. Boykov, O. Veksler, "System and method for fast approximate energy minimization via graph cuts," United Stated Patent 6,744,923, June 1, 2004
-
 * QPBO:
 	* Implements algorithms for minimizing functions of binary variables with unary and pairwise terms based on roof duality described in the following papers
 	* Project link: http://pub.ist.ac.at/~vnk/
@@ -85,7 +81,6 @@ The source code contains the following works which they include their own licens
 		* E. Boros, P. L. Hammer, and X. Sun, "Network flows and minimization of quadratic pseudo-Boolean functions," Technical Report RRR 17-1991, RUTCOR Research Report, May 1991.
 		* E. Boros, P. L. Hammer, and G. Tavares, "Preprocessing of Unconstrained Quadratic Binary Optimization," Technical Report RRR 10-2006, RUTCOR Research Report, April 2006.
 		* C. Rother, V. Kolmogorov, V. Lempitsky, and M. Szummer, "Optimizing binary MRFs via extended roof duality," CVPR 2007.
-
 * KITTI development kit:
 	* KITTI development kit for handling flow data format
 	* Project link: http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow 
