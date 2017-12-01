@@ -2,27 +2,50 @@
 ## MirrorFlow: Exploiting Symmetries in Joint Optical Flow and Occlusion Estimation
 
 
-### External Dependencies
+### **How to use**
+
+**1. Download external dependencies**
 
 * OpenCV (tested on 2.4.13, 3.0.0, and 3.2.0)
 * png++ (tested on 0.2.7)
 * libpng (tested on 1.6.26)
-  
-  
-### Input arguments
 
-* prefix input_image1 input_image2 result_directory parameter_directory parameter_file initial_forward_flow initial_backward_flow
-* ex.) 000064 ../data/000064_10.png ../data/000064_11.png ../data/res/ ../params/ params_gco.yml ../data/init/000064_10.png ../data/init/000064_11.png
+
+**2. Build a project using CMake**
+
+Configure the CMakeLists.txt file according to your working environment and then build the project. 
+
+	mkdir bld
+    cd bld
+    cmake ..
+    make
+
+**3. Run MirrorFlow**
+
+MirrorFlow takes total 8 input arguments:
+
+* prefix
+* input_image1
+* input_image2
+* output_directory
+* parameter_directory
+* parameter_file
+* initial_forward_flow
+* initial_backward_flow
+
+Here is an example when running on the command line:
+
+	./mirrorFlow 000064 ../data/000064_10.png ../data/000064_11.png ../data/res/ ../params/ params_gco.yml ../data/init/000064_10.png ../data/init/000064_11.png
 
 
 ### Parameter files 
 
 * params_gco.yml
-    * A set of main parameters
-    * Details are described in the main paper
+	* A set of main parameters
+	* Details are described in the main paper
 
 * params_mirrorFlow.yml
-    * Controlling verbose options.   
+	* Controlling verbose options.   
 	* verbose_main: a verbose flag for the main algorithm
 	* verbose_seg: a verbose flag for the superpixel algorithm
 
@@ -31,9 +54,9 @@
     * CVPR 2015: Real-Time Coarse-to-fine Topologically Preserving Segmentation
     * http://www.cs.toronto.edu/~yaojian/cvpr15.pdf
 	
-### Included Dependencies
+### Included dependencies
 
-The source codes contains the following works which they include their own licenses:
+The source code contains the following works which they include their own licenses:
 
 * Spixel:	
 	* Real-time coarse-to-fine topologically preserving segmentation
@@ -86,4 +109,3 @@ Please cite the paper below if you find our paper/source code are useful.
       Title = {{MirrorFlow}: {E}xploiting Symmetries in Joint Optical Flow and Occlusion Estimation},  
       Year = {2017}  
     }
-	
