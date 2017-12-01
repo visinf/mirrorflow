@@ -20,20 +20,16 @@
 * params_gco.yml
     * A set of main parameters
     * Details are described in the main paper
-	*
-
 
 * params_mirrorFlow.yml
     * Controlling verbose options.   
 	* verbose_main: a verbose flag for the main algorithm
 	* verbose_seg: a verbose flag for the superpixel algorithm
 
-
 * params_tgseg.yml
     * A set of parameters for the initial superpixelization (related to the paper below)
     * CVPR 2015: Real-Time Coarse-to-fine Topologically Preserving Segmentation
     * http://www.cs.toronto.edu/~yaojian/cvpr15.pdf
-
 	
 ### Included Dependencies
 
