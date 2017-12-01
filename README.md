@@ -19,7 +19,8 @@
 
 * params_gco.yml
     * A set of main parameters
-    * Details are described in the main paper.	
+    * Details are described in the main paper
+	*
 
 
 * params_mirrorFlow.yml
