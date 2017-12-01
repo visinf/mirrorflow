@@ -59,14 +59,14 @@ The source code contains the following works which they include their own licens
 * Spixel:	
 	* Real-time coarse-to-fine topologically preserving segmentation
 	* Project link: https://bitbucket.org/mboben/spixel
-    * Contact information: marko.boben@fri.uni-lj.si
+    * Contact information: marko.boben [_at_] fri.uni-lj.si
 	* Distributed under GNU GPL version 3.0
 	* Citation: 
 		* J. Yao, M. Boben, S. Fidler, and R. Urtasun. Real-time coarse-to-fine topologically preserving segmentation. In CVPR, pages 2947-2955, 2015.
 * GCoptimization:	
 	* GCO-v3.0: software for energy minimization with graph cuts
 	* Project link: http://vision.csd.uwo.ca/code/
-	* Contact information: olga@csd.uwo.ca
+	* Contact information: olga [_at_] csd.uwo.ca
 	* Citations:
 		* Y. Boykov, O. Veksler, R.Zabih, "Efficient Approximate Energy Minimization via Graph Cuts," IEEE TPAMI, 20(12):1222-1239, Nov 2001.
 		* V. Kolmogorov, R.Zabih, "What Energy Functions can be Minimized via Graph Cuts?," IEEE TPAMI, 26(2):147-159, Feb 2004. 
@@ -75,7 +75,7 @@ The source code contains the following works which they include their own licens
 * QPBO:
 	* Implements algorithms for minimizing functions of binary variables with unary and pairwise terms based on roof duality described in the following papers
 	* Project link: http://pub.ist.ac.at/~vnk/
-	* Contact information: vnk@ist.ac.at
+	* Contact information: vnk [_at_] ist.ac.at
 	* Citations:
 		* P. L. Hammer, P. Hansen, and B. Simeone, "Roof duality, complementation and persistency in quadratic 0-1 optimization," Mathematical Programming, 28:121-155, 1984.
 		* E. Boros, P. L. Hammer, and X. Sun, "Network flows and minimization of quadratic pseudo-Boolean functions," Technical Report RRR 17-1991, RUTCOR Research Report, May 1991.
@@ -84,7 +84,7 @@ The source code contains the following works which they include their own licens
 * KITTI development kit:
 	* KITTI development kit for handling flow data format
 	* Project link: http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=flow 
-	* Contact information: andreas.geiger@tuebingen.mpg.de
+	* Contact information: andreas.geiger [_at_] tuebingen.mpg.de
 	* Citations:
 		* M. Menze and A. Geiger, "Object scene flow for autonomous vehicles," In CVPR, pages 3061-3070, 2015.
 		
